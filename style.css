@@ -132,7 +132,27 @@ body {
 }
 
 
+.chat-ai-btn {
+    background-color:  #4CAF50;
 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 14px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-ai-btn:hover {
+    background-color: #0bab207f;
+}
 .search-bar {
     display: flex;
     align-items: center;
@@ -350,7 +370,7 @@ body {
     text-align: center;
     transition: transform 0.3s ease-in-out;
     position: relative;
-    height: 300px;
+    height: 350px;
     background-color: rgb(157, 237, 157);
 }
 
